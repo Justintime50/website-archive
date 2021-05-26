@@ -1,0 +1,16 @@
+services:
+  website-archive:
+    build: .
+    restart: always
+    container_name: website-archive
+    networks:
+      - traefik
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik
+      - traefik.port=80
+    
+networks:
+  traefik:
+    external:
+      name: traefik

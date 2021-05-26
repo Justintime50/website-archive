@@ -1,0 +1,159 @@
+/* Tuneup Technology Website */
+
+/********************************/
+/**** BOOTSTRAP 3.0 OVERRIDE ****/
+/** "!important" should be added to override bootstrap CSS **/
+/********************************/
+
+
+/***********/
+/*** Nav ***/
+
+nav {
+	background-color:#3c505a !important;
+	border-radius: 0 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+	/* display: block; /* Makes nav hover feature work */
+}
+
+.dropdown-menu {
+	border: 1px solid #3c505a;
+}
+
+nav ul {
+	background-color:#048ada !important;
+}
+
+nav ul li {
+	padding:0px;
+	background-color:#3c505a;
+}
+
+nav ul li a {
+	background-color:#3c505a !important; 
+	color:white !important;
+}
+
+nav ul li ul li {
+    background-color:#048ada !important; 
+	padding:0px;
+	text-align:center;
+}
+
+nav ul li ul li a {
+	padding:6px !important;
+	background-color:#048ada !important;
+}
+
+nav ul li ul li a:hover{
+    background-color:#048ada !important; 
+}
+
+.navbar {
+	padding:5px 8%;
+	border-bottom: 1px solid #3c505a;
+	/*opacity: .97;*/
+}
+
+.navbar-nav li {
+	padding:5px 0px;
+}
+
+.navbar-nav li a:hover {
+    color: #3c505a !important;
+    background-color: white !important;
+}
+
+.dropdown-toggle:focus {
+    color: #3c505a !important;
+    background-color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #3c505a !important;
+}
+
+.navbar-toggle {
+    border-color: white !important; /* Color for small nav dropdown button */
+    margin: 15px; /* Fixes button position */
+}
+
+.navbar-toggle:hover {
+    background-color: #007dda !important; /* Color for small nav dropdown button background */
+}
+
+.icon-bar {
+	background-color:white; /* Color for small nav dropdown button */
+}
+
+.navbar-right {
+	text-align: center;
+}
+
+
+
+/**********************/
+/*** General Styles ***/
+
+.btn-default {
+	border: 1px solid #007dda !important;
+	background-color: white !important;
+	color: #007dda !important;
+}
+
+.btn-default:hover {
+	border: 1px solid #007dda !important;
+	background-color: #007dda !important;
+	color: white !important;
+}
+
+.btn-repair-default {
+	background-color: #007dda !important;
+	color: white !important;
+	padding: 20px 40px;
+	margin-bottom:20px;
+}
+
+.btn-repair-default:hover {
+	background-color: #048ada !important;
+	color: white !important;
+}
+
+.btn-contact-index {
+	background-color: white !important;
+	color: #007dda !important;
+}
+
+.btn-contact-index:hover {
+	border: 1px solid white !important;
+	background-color: #048ada !important;
+	color: white !important;
+}
+
+.container {
+    padding: 30px 10%;
+}
+
+.jumbotron {
+	background-image: url("WebContent/Pics/banner.jpg");
+    -webkit-background-size: cover; /* For WebKit */
+    -moz-background-size: cover;    /* Mozilla */
+    -o-background-size: cover;      /* Opera */
+    background-size: cover;         /* Generic */
+	color:white !important;
+	text-align: center;
+	border-bottom: 1px solid #3c505a;
+	padding-bottom: 25%;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin: -20px 0px 0px 0px;
+	text-shadow: 0 0 5px black;
+}
+
+.glyphicon-index {
+	font-size:45px;
+	padding: 10px 0px;
+}

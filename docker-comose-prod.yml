@@ -1,0 +1,4 @@
+services:
+  website-archive:
+    labels:
+      - traefik.frontend.rule=Host:website-archive.justinpaulhammond.com,www.website-archive.justinpaulhammond.com

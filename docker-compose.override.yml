@@ -1,0 +1,6 @@
+services:
+  website-archive:
+    labels:
+      - traefik.frontend.rule=Host:website-archive.localhost
+    volumes:
+      - ./src:/var/www/html

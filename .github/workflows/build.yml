@@ -1,0 +1,16 @@
+name: build
+
+on: [push, pull_request]
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Setup Traefik
+        run: docker network create traefik
+      - name: Setup Docker container
+        run: |
+          docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
+          docker ps | grep -q website-archive
