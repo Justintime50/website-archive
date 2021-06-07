@@ -1,0 +1,68 @@
+h2,
+h3 {
+  color: #282e32;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+footer {
+  background-color: #282e32;
+}
+
+footer a {
+  color: #fff;
+}
+
+.pa-btn-banner {
+  color: white !important;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.pa-btn-banner:hover {
+  background-color: #282e32;
+  color: #fff;
+  border-color: #282e32;
+}
+
+.pa-btn-other {
+  color: #282e32;
+  border-color: #282e32;
+  background-color: transparent;
+}
+
+.pa-btn-other:hover {
+  background-color: #282e32;
+  color: #fff;
+  border-color: #282e32;
+}
+
+.pa-nav-fade.opaque {
+  background-color: #282e32;
+}
+
+.pa-nav-fade a {
+  color: #fff;
+}
+
+.pa-banner {
+  background-image: url("../pics/MrWipes3.jpg");
+}
+
+.logo-banner {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* For width 1024 and larger: */
+@media only screen and (max-width: 1024px) {
+  .logo-banner {
+    width: 30%;
+    height: auto;
+  }
+}

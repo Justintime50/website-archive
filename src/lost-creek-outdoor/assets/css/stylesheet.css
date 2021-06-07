@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+h2,
+h3 {
+  color: #32362e;
+}
+
+.navbar,
+footer {
+  background-color: #32362e;
+}
+
+footer a {
+  color: #fff;
+}
+
+.logo {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+}
+
+.pa-btn-banner:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.pa-btn-other {
+  color: #32362e;
+  border-color: #32362e;
+  background-color: transparent;
+}
+
+.pa-btn-other:hover {
+  background-color: #32362e;
+  color: #fff;
+  border-color: #32362e;
+}
+
+.pa-banner {
+  border-bottom: solid 5px #17b070;
+}
+
+.pa-banner-text {
+  text-shadow: 0 0 30px black;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  background-position: center;
+  height: 100%;
+  -webkit-background-size: cover;
+
+  /* For WebKit */
+  -moz-background-size: cover;
+
+  /* Mozilla */
+  -o-background-size: cover;
+
+  /* Opera */
+  background-size: cover;
+
+  /* Generic */
+  background-attachment: fixed;
+}
+
+.carousel-item:nth-child(1) { background-image: url("../pics/camping.jpg"); }
+.carousel-item:nth-child(2) { background-image: url("../pics/floating.jpg"); }
+.carousel-item:nth-child(3) { background-image: url("../pics/backpack.jpg"); }

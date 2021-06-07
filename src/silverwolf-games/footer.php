@@ -1,2 +1,3 @@
-<!--Footer-->
-<footer>SilverWolf Games</footer>
+<footer>
+    SilverWolf Games
+</footer>

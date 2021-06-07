@@ -1,50 +1,51 @@
 <!DOCTYPE html>
-<hmtl>
+<html>
 
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
 
-<title>Get Started</title>
+    <title>Get Started</title>
 
-<body>
-	
-<?php include 'nav.php';?>
+    <body>
 
-<div class="container-fluid text-center">
-<div class="container">
+        <?php include 'nav.php';?>
 
-<h1>Get Started</h1>
+        <div class="container-fluid text-center">
+            <div class="container">
 
-<br>
-<p>Simply send us an email below with your name, return email address, and the details of your family tree.<br>Find One Generation will reach out to you within 48 hours upon receiving your email:</p>
-<br><br>
-<p style="text-align:center;">Contact us here: <a href="mailto:NA?Subject=Get%20Started" target="_top">NA</a></p>
-</p>
+                <h1>Get Started</h1>
 
-</div></div>
+                <br>
+                <p>Simply send us an email below with your name, return email address, and the details of your family
+                    tree.<br>Find One Generation will reach out to you within 48 hours upon receiving your email:</p>
+                <br><br>
+                <p style="text-align:center;">Contact us here: user@example.com</p>
+                </p>
 
-<!-- Email Form 
-<form action="email.php" method="post">
-Name:<br>
-<input type="text" name="name" placeholder="John Doe"><br>
-Subject:<br>
-<select name="subject">
-	<option value="Get Started">Get Started</option>
-  </select><br>
-Email:<br>
-<input type="text" name="email" placeholder="user@example.com"><br>
-Message:<br>
-<textarea type="text" name="message" placeholder="Email content" rows="20" cols="100" ></textarea><br><br>
-<input type="submit" name="Send" value="Send">
-<input type="reset" name="Reset" value="Reset">
-</form> -->
+            </div>
+        </div>
 
-<hr>
+        <!-- Email Form 
+        <form action="#" method="post">
+        Name:<br>
+        <input type="text" name="name" placeholder="John Doe"><br>
+        Subject:<br>
+        <select name="subject">
+            <option value="Get Started">Get Started</option>
+        </select><br>
+        Email:<br>
+        <input type="text" name="email" placeholder="user@example.com"><br>
+        Message:<br>
+        <textarea type="text" name="message" placeholder="Email content" rows="20" cols="100" ></textarea><br><br>
+        <input type="submit" name="Send" value="Send">
+        <input type="reset" name="Reset" value="Reset">
+        </form> -->
 
-<?php include 'footer.php';?>
+        <hr>
 
+        <?php include 'footer.php';?>
 
-</div> <!-- Body div -->
-	</div>
-</body>
+        </div> <!-- Body div -->
+        </div>
+    </body>
 
-</html>
+    </html>
