@@ -15,8 +15,7 @@
     <div class="container">
         <h1>Website Archive</h1>
 
-        <p>This is a monlithic repo of some of my past website projects from early in my software engineering career. As such, many are in rough shape, years old, and are not indicative of my current skill as a web developer. I'd hate to see what running an HTML and CSS linter through this repo would do...</p>
-        <p>Attempts were made to redact phone numbers and emails (replaced with `NA`) as well as other sensitive information. Cloning this repo will certainly take awhile as the size is large.</p>
+        <p>This is a monlithic repo of some of my past website projects from early in my software engineering career. As such, many are dated and are not indicative of my current skill as a web developer.</p>
         <p>All of the source code included here are from projects that are no longer active and is provided for educational purposes only. The associated assets remain under the ownership of the original companies.</p>
 
         <ul>
@@ -35,13 +34,19 @@
 
         <ul>
             <li><a href="https://ncr4.com">ncr4.com</a></li>
-            <li><a href="https://www.surgerydirect.net">surgerydirect.net</a></li>
+            <li><a href="https://surgerydirect.net">surgerydirect.net</a></li>
             <li><a href="https://denver-diagnostic.com">denver-diagnostic.com</a></li>
-            <li><a href="https://www.taxsentry.com">taxsentry.com</a></li>
+            <li><a href="https://taxsentry.com">taxsentry.com</a></li>
             <li><a href="https://jonesexcavating.com">jonesexcavating.com</a></li>
-            <li><a href="http://foodforeverfoundation.org">foodforeverfoundation.org</a></li>
-            <li><a href="https://www.highlinesouthasc.com">highlinesouthasc.com</a></li>
+            <li><a href="https://foodforeverfoundation.org">foodforeverfoundation.org</a></li>
+            <li><a href="https://highlinesouthasc.com">highlinesouthasc.com</a></li>
             <li><a href="https://fixinscontracting.com">fixinscontracting.com</a></li>
+            <li><a href="https://elgozodejesus.com">elgozodejesus.com</a> | <a href="https://rosemarystudios.com">rosemarystudios.com</a></li>
+            <li><s>nozani.com</s></li>
+            <li><s>nozani.cn</s></li>
+            <li><s>mydnapie.com</s></li>
+            <li><s>segolilysoap.com</s></li>
+            <li><s>flintenterprises.com</s></li>
             <li>And many more...</li>
         </ul>
 

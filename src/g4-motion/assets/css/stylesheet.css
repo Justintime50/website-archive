@@ -1,0 +1,61 @@
+h2,
+h3 {
+  color: #282e32;
+}
+
+.navbar,
+footer {
+  background-color: #282e32;
+}
+
+footer,
+footer a {
+  color: #fff;
+}
+
+.pa-banner {
+  background-image: url("../pics/banner.jpg");
+}
+
+.banner-2 {
+  background-image: url("../pics/logo_office2.png");
+}
+
+.banner-lifestyle {
+  background-image: url("../pics/spinner-lifestyle.jpg");
+  background-repeat: no-repeat;
+}
+
+.pa-banner-heading {
+  text-shadow: 0 0 20px black;
+}
+
+.pa-banner-sub-heading {
+  text-shadow: 0 0 10px black;
+}
+
+.contact-pic {
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.logo-banner {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-3-images {
+  max-width: 100%;
+  border: solid 1px black;
+}
+
+.bg-goal-2 {
+  background-image: url("../pics/goal2.jpg");
+}
+
+.bg-goal-3 {
+  background-image: url("../pics/goal3.jpg");
+}

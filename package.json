@@ -1,0 +1,27 @@
+{
+    "name": "website-archive",
+    "description": "A collection of early projects from my web developer career.",
+    "version": "1.0.0",
+    "devDependencies": {
+        "htmlhint": "^0.14.2",
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^22.0.0"
+    },
+    "scripts": {
+        "lint-html": "./node_modules/.bin/htmlhint src",
+        "lint-css": "npx stylelint \"**/*.css\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Justintime50/website-archive.git"
+    },
+    "keywords": [
+        "website",
+        "archive"
+    ],
+    "author": "Justintime50",
+    "bugs": {
+        "url": "https://github.com/Justintime50/website-archive/issues"
+    },
+    "homepage": "https://github.com/Justintime50/website-archive#readme"
+}

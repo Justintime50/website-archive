@@ -14,3 +14,18 @@ jobs:
         run: |
           docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d
           docker ps | grep -q website-archive
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: Install dependencies
+        run: npm install
+      - name: Run CSS lint
+        run: npm run lint-css
+      - name: Run HTML lint
+        run: npm run lint-html

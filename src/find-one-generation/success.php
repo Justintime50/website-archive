@@ -1,1 +1,0 @@
-<?php echo '<br>Success!<br>Your email has been sent. Find One Generation will be reaching out to you shortly. Please click the back button to return to our website.' ?>
