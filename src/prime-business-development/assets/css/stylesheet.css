@@ -349,6 +349,7 @@ table td {
   font-weight: bold;
   border: solid 2px #fff;
 
+  transform: rotate(-90deg);
   /* Safari */
   -webkit-transform: rotate(-90deg);
 
