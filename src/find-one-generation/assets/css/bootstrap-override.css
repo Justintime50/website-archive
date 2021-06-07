@@ -119,7 +119,7 @@ nav ul li ul li a:hover {
 }
 
 .jumbotron {
-  background-image: url("assets/pics/banner.jpg");
+  background-image: url("../pics/banner.jpg");
   -webkit-background-size: cover; /* For WebKit */
   -moz-background-size: cover;    /* Mozilla */
   -o-background-size: cover;      /* Opera */

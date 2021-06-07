@@ -47,11 +47,9 @@
 
                 <br><br>
 
-                <div style="text-align:center;"><a href="get-started.php"><img src="assets/pics/get_started.png"
-                            onmouseover="this.src='assets/pics/get_started_shaded.png'"
-                            onmouseout="this.src='assets/pics/get_started.png'" /></a></div>
-
-            </div>
+                <div style="text-align:center;">
+                    <a href="get-started.php"><button class="btn btn-green text-center">Getting Started</button></a>
+                </div>
         </div>
 
         <hr>
