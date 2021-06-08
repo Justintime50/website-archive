@@ -30,9 +30,11 @@
         </ul>
 
         <hr />
-        <p>There are dozens of additional sites that I can't showcase code for here because they are still actively used by the clients I built them for. I will however link them below:</p>
+        <p>There are dozens of additional sites that I can't showcase code for here because they are still actively used by the clients I built them for or worked on. I will however link them below:</p>
 
         <ul>
+            <li><a href="https://tuneuptechnology.com">tuneuptechnology.com</a></li>
+            <li><a href="https://easypost.com">easypost.com</a></li>
             <li><a href="https://ncr4.com">ncr4.com</a></li>
             <li><a href="https://surgerydirect.net">surgerydirect.net</a></li>
             <li><a href="https://denver-diagnostic.com">denver-diagnostic.com</a></li>
