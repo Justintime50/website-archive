@@ -11,9 +11,9 @@
     <!-- <link rel="stylesheet" href="assets/css/pineapple.css">
     <link rel="stylesheet" href="assets/css/waterfall.theme.css"> -->
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.2/pineapple/dist/css/pineapple.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/css/pineapple.min.css">
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.2/templates/waterfall/assets/css/waterfall.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/templates/waterfall/assets/css/waterfall.min.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <meta name="Author" content="Fidget Motion">
     <meta name="keywords"
@@ -186,7 +186,7 @@
         crossorigin="anonymous"></script>
     <!-- <script src="assets/js/pineapple.js"></script>
     <script src="https://use.fontawesome.com/12e4399d79.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.2/pineapple/dist/js/pineapple.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/js/pineapple.min.js"></script>
     <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
     <script>
         function wholesaleMessage() {

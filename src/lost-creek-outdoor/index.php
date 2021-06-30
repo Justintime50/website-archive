@@ -6,16 +6,16 @@
 
     <?php include 'nav.php';?>
 
-    <div id="bannerCarousel" class="carousel slide pa-banner" data-ride="carousel" data-interval="4000"
+    <div id="bannerCarousel" class="carousel slide pa-carousel-full" data-ride="carousel" data-interval="4000"
         data-pause="false">
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
+        <div class="carousel-inner pa-carousel-inner-full" role="listbox">
+            <div class="carousel-item active pa-carousel-item-full pa-active-full">
                 <h1 class="pa-banner-text">TAKE CAMPING</h1>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item pa-carousel-item-full">
                 <h1 class="pa-banner-text">FLOAT THEM</h1>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item pa-carousel-item-full">
                 <h1 class="pa-banner-text">PACK THEM</h1>
             </div>
         </div>
