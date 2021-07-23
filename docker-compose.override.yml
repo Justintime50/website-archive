@@ -3,4 +3,4 @@ services:
     labels:
       - traefik.frontend.rule=Host:website-archive.localhost
     volumes:
-      - ./src:/var/www/html
+      - ./src:/var/www/html/public
