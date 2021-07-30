@@ -8,12 +8,10 @@
     <link rel="shortcut icon" href="assets/pics/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/css/pineapple.css">
-    <link rel="stylesheet" href="assets/css/waterfall.theme.css"> -->
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/css/pineapple.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/pineapple/dist/css/pineapple.min.css">
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/templates/waterfall/assets/css/waterfall.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/templates/waterfall/assets/css/waterfall.min.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <meta name="Author" content="Fidget Motion">
     <meta name="keywords"
@@ -54,7 +52,7 @@
         </div>
     </div>
 
-    <div class="container-fluid pa-bg-gray">
+    <div class="container-fluid pa-bg-gray" style="display: flex; justify-content: center; align-items: center;">
         <div class="container pa-card pa-slideanim">
             <h2 style="margin:0px;">Spinner in Action</h2>
 
@@ -115,7 +113,6 @@
             throughout the year. Please keep up with us to stay in the know with our latest life changing product!</p>
     </div>
 
-    <!-- TODO: pa-banner-darken isn't working on the second banner -->
     <div class="pa-banner banner-2 pa-banner-darken">
         <div class="pa-banner-text">
             <form action="#" method="post">
@@ -172,7 +169,6 @@
                 <br><a href="#contact-us">Contact Us</a>
                 <br><a href="#contact-us" onclick="wholesaleMessage()">Wholesale</a>
                 <br><a href="#contact-us" onclick="returnPolicy()">Return Policy</a>
-                <br><!-- fixes shipping padding -->
             </div>
         </div>
     </footer>
@@ -184,9 +180,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
-    <!-- <script src="assets/js/pineapple.js"></script>
-    <script src="https://use.fontawesome.com/12e4399d79.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/js/pineapple.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/pineapple/dist/js/pineapple.min.js"></script>
     <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
     <script>
         function wholesaleMessage() {

@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/css/pineapple.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/pineapple/dist/css/pineapple.min.css">
     <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/templates/waterfall/assets/css/waterfall.min.css">
+        href="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/templates/waterfall/assets/css/waterfall.min.css">
     <link rel="stylesheet" href="assets/css/stylesheet.css">
     <meta name="Author" content="Lost Creek">
     <meta name="keywords"

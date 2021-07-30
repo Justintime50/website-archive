@@ -32,5 +32,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
     integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.0.3/pineapple/dist/js/pineapple.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pineapple-library@2.2.1/pineapple/dist/js/pineapple.min.js"></script>
 <script src="https://kit.fontawesome.com/0dd4ecd465.js" crossorigin="anonymous"></script>
