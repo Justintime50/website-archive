@@ -15,11 +15,12 @@
     <div class="container">
         <h1>Website Archive</h1>
 
-        <p>This is a monolithic repo of some of my past website projects from early in my software engineering career. As such, many are dated and are not indicative of my current skill as a web developer.</p>
+        <p>This is a monolithic repo of website projects from early in my software engineering career. As such, many are dated and are not indicative of my current skill as a web developer.</p>
         <p>All of the source code included here are from projects that are no longer active and is provided for educational purposes only. The associated assets remain under the ownership of the original companies.</p>
 
         <ul>
             <?php
+                // List each of the projects found in this repo
                 $dir = array_slice(scandir('./'), 2);
                 foreach ($dir as $dir_name) {
                     if (is_dir($dir_name)) {
@@ -44,8 +45,7 @@
             <li><a href="https://highlinesouthasc.com">highlinesouthasc.com</a></li>
             <li><a href="https://fixinscontracting.com">fixinscontracting.com</a></li>
             <li><a href="https://elgozodejesus.com">elgozodejesus.com</a> | <a href="https://rosemarystudios.com">rosemarystudios.com</a></li>
-            <li><s>nozani.com</s></li>
-            <li><s>nozani.cn</s></li>
+            <li><s>nozani.com</s> | <s>nozani.cn</s></li>
             <li><s>mydnapie.com</s></li>
             <li><s>segolilysoap.com</s></li>
             <li><s>flintenterprises.com</s></li>
