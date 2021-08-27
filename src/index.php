@@ -15,7 +15,7 @@
     <div class="container">
         <h1>Website Archive</h1>
 
-        <p>This is a monlithic repo of some of my past website projects from early in my software engineering career. As such, many are dated and are not indicative of my current skill as a web developer.</p>
+        <p>This is a monolithic repo of some of my past website projects from early in my software engineering career. As such, many are dated and are not indicative of my current skill as a web developer.</p>
         <p>All of the source code included here are from projects that are no longer active and is provided for educational purposes only. The associated assets remain under the ownership of the original companies.</p>
 
         <ul>
