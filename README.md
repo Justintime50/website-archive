@@ -41,7 +41,3 @@ npm run lint-html
 I will not be accepting pull requests to this repo, it's provided "as-is". There is no license associated with this work, it is provided strictly for educational purposes and may not be redistributed as all work here is protected by Copyright Law.
 
 Copyright 2021 Justin Hammond
-
-## Attribution
-
-* Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
