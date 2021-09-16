@@ -6,7 +6,7 @@ A collection of projects from early in my web developer career.
 
 [![Build Status](https://github.com/Justintime50/website-archive/workflows/build/badge.svg)](https://github.com/Justintime50/website-archive/actions)
 
-<img src="assets/showcase.png" alt="Showcase">
+<img src="https://raw.githubusercontent.com/justintime50/assets/main/src/website-archive/showcase.png" alt="Showcase">
 
 </div>
 
