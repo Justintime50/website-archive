@@ -1,8 +1,7 @@
 services:
   website-archive:
     build: .
-    restart: always
-    container_name: website-archive
+    restart: unless-stopped
     networks:
       - traefik
     labels:
@@ -12,5 +11,4 @@ services:
     
 networks:
   traefik:
-    external:
-      name: traefik
+    name: traefik
