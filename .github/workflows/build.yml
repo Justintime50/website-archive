@@ -45,4 +45,4 @@ jobs:
           webhook_type: "json-extended"
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
-          data: '{ "pipeline": "deploy", "compose" : "docker-compose.yml -f docker-compose-prod.yml" }'
+          data: '{ "pipeline": "deploy", "prod_compose": true, "healthcheck": ["website-archive-website-archive-1", "website-archive-website-archive-2"] }'
