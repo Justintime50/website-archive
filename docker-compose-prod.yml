@@ -9,4 +9,6 @@ services:
       timeout: 10s
       retries: 3
     labels:
-      - traefik.frontend.rule=Host:website-archive.justinpaulhammond.com,www.website-archive.justinpaulhammond.com
+      - "traefik.http.routers.website-archive.rule=Host(`website-archive.justinpaulhammond.com`) || Host(`www.website-archive.justinpaulhammond.com`)"
+      - "traefik.http.routers.website-archive.tls=true"
+      - "traefik.http.routers.website-archive.tls.certresolver=letsencrypt"

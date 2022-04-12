@@ -2,6 +2,6 @@ version: "3.8"
 services:
   website-archive:
     labels:
-      - traefik.frontend.rule=Host:website-archive.localhost
+      - "traefik.http.routers.website-archive.rule=Host(`website-archive.localhost`)"
     volumes:
       - ./src:/var/www/html/public
