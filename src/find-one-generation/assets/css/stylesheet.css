@@ -11,22 +11,22 @@ a {
   color: #0dc100;
 }
 
-div.bg_header {
+div.bg-header {
   height: 50px;
   background-color: #d0f0ef;
 }
 
 /* Tables */
-table.index_title {
+table.index-title {
   width: 1024px;
 }
 
-td.index_data {
+td.index-data {
   width: 512px;
   padding: 10px;
 }
 
-td.column_data {
+td.column-data {
   padding: 30px;
 }
 
@@ -36,7 +36,7 @@ h3 {
 }
 
 footer {
-  padding: 10px 0 30px 0;
+  padding: 10px 0 30px;
   text-align: center;
 }
 

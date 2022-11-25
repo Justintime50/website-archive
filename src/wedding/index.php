@@ -62,7 +62,8 @@
                     life had to offer, and get lost in the magical moments that only two people in love could
                     experience. I took this to heart when I planned <b>the proposal.</b> We called all of our dates
                     <b>adventures.</b> We often joked about how we would be like the couple off of the <b>Disney movie
-                        UP.</b> With that in mind I decided to pull <b>the proposal, Disney style!</b></p>
+                        UP.</b> With that in mind I decided to pull <b>the proposal, Disney style!</b>
+                </p>
                 <p>I decided to blindfold Camie before we arrived at our location so she couldn't see what was to come.
                     I walked her through the back halls of <b>Provo Town Center</b> up the stairs and left her there
                     with instructions to take off the blindfold in two minutes. I ran down the stairs and passed through
@@ -117,9 +118,8 @@
                 <br>
                 <hr><br>
                 <h2>View the Complete Proposal</h2><br>
-                <div class="videoWrapper">
-                    <iframe width="560" height="350" src="https://www.youtube.com/embed/03Xu8uDodDg" frameborder="0"
-                        allowfullscreen></iframe>
+                <div class="video-wrapper">
+                    <iframe width="560" height="350" src="https://www.youtube.com/embed/03Xu8uDodDg" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -140,7 +140,8 @@
                     even got her number.</p>
                 <p>Fast forward a few weeks – Kim asked Justin to go to a fire pit with some friends. He bumped into
                     Camie again and got to know her there. He then asked for her number!... but didn’t ask her out
-                    <b>all</b> summer.</p>
+                    <b>all</b> summer.
+                </p>
                 <p>When school started in the fall of 2016, Justin saw Camie at the institute dance and decided three
                     times was a sign. He ran across the gym during the next slow song and asked her to dance.</p>
                 <p>At the end of the night, Justin decided he couldn’t let her slip away again. He finally asked if she
@@ -321,8 +322,7 @@
                     <div class="row">
                         <div class="col-sm-12 form-group">
                             <br>
-                            <button class="btn btn-default btn-lg" name="invitation" type="submit"
-                                disabled>Submit</button>
+                            <button class="btn btn-default btn-lg" name="invitation" type="submit" disabled>Submit</button>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
         </a>
         <p>Design: Justin Hammond</p>
         <p>&#169;
-            <?php echo date("Y");?> JHWD, All rights reserved.
+            <?php echo date("Y"); ?> JHWD, All rights reserved.
         </p>
     </footer>
 
@@ -347,9 +347,9 @@
         // SLIDEANIM SCRIPT
         //
 
-        $(document).ready(function () {
+        $(document).ready(function() {
             // Add smooth scrolling to all links in navbar + footer link + announcement button
-            $(".navbar a, footer a[href='#myPage'], a[href='#announcement'], a[href='#registry']").on('click', function (event) {
+            $(".navbar a, footer a[href='#myPage'], a[href='#announcement'], a[href='#registry']").on('click', function(event) {
                 // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
                     // Prevent default anchor click behavior
@@ -362,7 +362,7 @@
                     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
-                    }, 900, function () {
+                    }, 900, function() {
 
                         // Add hash (#) to URL when done scrolling (default click behavior)
                         window.location.hash = hash;
@@ -370,8 +370,8 @@
                 } // End if
             });
 
-            $(window).scroll(function () {
-                $(".slideanim").each(function () {
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
                     var pos = $(this).offset().top;
 
                     var winTop = $(window).scrollTop();
@@ -390,7 +390,7 @@
         var countDownDate = new Date("June 2, 2017 09:40:00").getTime();
 
         // Update the count down every 1 second
-        var x = setInterval(function () {
+        var x = setInterval(function() {
 
             // Get todays date and time
             var now = new Date().getTime();
@@ -405,8 +405,8 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Display the result in the element with id="demo"
-            document.getElementById("timer").innerHTML = days + " days,&nbsp; " + hours + " hours,&nbsp; "
-                + minutes + " minutes,&nbsp; " + seconds + " seconds ";
+            document.getElementById("timer").innerHTML = days + " days,&nbsp; " + hours + " hours,&nbsp; " +
+                minutes + " minutes,&nbsp; " + seconds + " seconds ";
 
             // If the count down is finished, write some text 
             if (distance < 0) {

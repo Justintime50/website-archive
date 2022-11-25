@@ -30,7 +30,7 @@ h4 {
   background-image: url("../pics/banner.jpg");
   text-align: center;
   border-bottom: 10px solid #390042;
-  padding: 10% 6% 20% 6%;
+  padding: 10% 6% 20%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white;
@@ -56,7 +56,7 @@ h4 {
     background-image: url("assets/banner-small.jpg");
     text-align: center;
     border-bottom: 10px solid #390042;
-    padding: 15% 15% 20% 15%;
+    padding: 15% 15% 20%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -93,7 +93,7 @@ h4 {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgb(0 0 0 / 25%);
 }
 
 .jumbotron-text {
@@ -120,7 +120,7 @@ h4 {
 }
 
 .thumbnail {
-  padding: 0 0 15px 0;
+  padding: 0 0 15px;
   border: none;
   border-radius: 0;
 }
@@ -164,7 +164,7 @@ h4 {
 }
 
 .panel:hover {
-  box-shadow: 5px 0 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 0 40px rgb(0 0 0 / 20%);
 }
 
 .panel-footer .btn {
@@ -184,10 +184,7 @@ h4 {
   background-color: #390042 !important;
   padding: 25px;
   border-bottom: 1px solid transparent;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-radius: 0;
 }
 
 .panel-footer {
@@ -209,7 +206,7 @@ h4 {
   z-index: 9999;
   border: 0;
   font-size: 14px !important;
-  line-height: 1.42857143 !important;
+  line-height: 1.4286 !important;
   letter-spacing: 2px;
   border-radius: 0;
   font-family: Montserrat, sans-serif;
@@ -251,9 +248,7 @@ footer .glyphicon {
 
 .slide {
   animation-name: slide;
-  -webkit-animation-name: slide;
   animation-duration: 1s;
-  -webkit-animation-duration: 1s;
   visibility: visible;
 }
 
@@ -269,15 +264,15 @@ footer .glyphicon {
   }
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(70%);
+    transform: translateY(70%);
   }
 
   100% {
     opacity: 1;
-    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
   }
 }
 
@@ -332,14 +327,14 @@ footer .glyphicon {
 /***** YOUTUBE VIDEO FIX *****/
 
 /* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
-.videoWrapper {
+.video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
 
-.videoWrapper iframe {
+.video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -368,7 +363,7 @@ footer .glyphicon {
 
   .navbar-collapse {
     border-top: 1px solid transparent;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 10%);
   }
 
   .navbar-fixed-top {

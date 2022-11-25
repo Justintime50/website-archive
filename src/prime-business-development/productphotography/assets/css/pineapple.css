@@ -504,7 +504,7 @@ html {
 .pa-nav-fade a.opaque {
   color: #89150a !important;
 }
-/********************************   *//***** BOOTSTRAP DATE PICKER *****//* https://bootstrap-datepicker.readthedocs.io/en/latest/index.html *//* No content here, must include externally *//**********************   *//***** FIXES/HACKS *****//***************************************   *//***** YOUTUBE FULLSCREEN VIDEO FIX *****//* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */.pa-videoWrapper {
+/********************************   *//***** BOOTSTRAP DATE PICKER *****//* https://bootstrap-datepicker.readthedocs.io/en/latest/index.html *//* No content here, must include externally *//**********************   *//***** FIXES/HACKS *****//***************************************   *//***** YOUTUBE FULLSCREEN VIDEO FIX *****//* https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */.pa-video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
 
@@ -513,7 +513,7 @@ html {
   height: 0;
 }
 
-.pa-videoWrapper iframe {
+.pa-video-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;

@@ -18,7 +18,7 @@
 
                 <table>
                     <tr>
-                        <td class="column_data">
+                        <td class="column-data">
                             <h3 class="column_title" id="how">How it Works</h3>
                             <ul>
                                 <li>Find One Generation provides a search of records for one family of your family tree
@@ -49,7 +49,7 @@
                     </tr>
 
                     <tr>
-                        <td class="column_data">
+                        <td class="column-data">
                             <hr>
                             <h3 class="column_title" id="what">What You Receive</h3>
                             <ul>
@@ -68,7 +68,7 @@
                     </tr>
 
                     <tr>
-                        <td class="column_data">
+                        <td class="column-data">
                             <hr>
                             <h3 class="column_title" id="who">Who Should Use This Service</h3>
                             <ul>

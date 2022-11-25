@@ -120,17 +120,14 @@ nav ul li ul li a:hover {
 
 .jumbotron {
   background-image: url("../pics/banner.jpg");
-  -webkit-background-size: cover; /* For WebKit */
-  -moz-background-size: cover;    /* Mozilla */
-  -o-background-size: cover;      /* Opera */
-  background-size: cover;         /* Generic */
+  background-size: cover;
   color: white !important;
   text-align: center;
   border-bottom: 1px solid #3c505a;
   padding-bottom: 25%;
   padding-left: 8%;
   padding-right: 8%;
-  margin: -20px 0 0 0;
+  margin: -20px 0 0;
   text-shadow: 0 0 5px black;
 }
 
