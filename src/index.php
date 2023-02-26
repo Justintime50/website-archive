@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Website Archive</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <style>
-        h1, footer {
+        h1,
+        footer {
             margin: 30px 0;
         }
     </style>
@@ -20,13 +22,13 @@
 
         <ul>
             <?php
-                // List each of the projects found in this repo
-                $dir = array_slice(scandir('./'), 2);
-                foreach ($dir as $dir_name) {
-                    if (is_dir($dir_name)) {
-                        echo "<li><a href=\"$dir_name\">$dir_name</a></li>";
-                    }
+            // List each of the projects found in this repo
+            $dir = array_slice(scandir('./'), 2);
+            foreach ($dir as $dir_name) {
+                if (is_dir($dir_name)) {
+                    echo "<li><a href=\"$dir_name\">$dir_name</a></li>";
                 }
+            }
             ?>
         </ul>
 
@@ -34,7 +36,6 @@
         <p>There are dozens of additional sites that I can't showcase code for here because they are still actively used by the clients I built them for or worked on. I will however link them below:</p>
 
         <ul>
-            <li><a href="https://tuneuptechnology.com">tuneuptechnology.com</a></li>
             <li><a href="https://easypost.com">easypost.com</a></li>
             <li><a href="https://ncr4.com">ncr4.com</a></li>
             <li><a href="https://surgerydirect.net">surgerydirect.net</a></li>
@@ -45,6 +46,7 @@
             <li><a href="https://highlinesouthasc.com">highlinesouthasc.com</a></li>
             <li><a href="https://fixinscontracting.com">fixinscontracting.com</a></li>
             <li><a href="https://elgozodejesus.com">elgozodejesus.com</a> | <a href="https://rosemarystudios.com">rosemarystudios.com</a></li>
+            <li><s>tuneuptechnology.com</s></li>
             <li><s>nozani.com</s> | <s>nozani.cn</s></li>
             <li><s>mydnapie.com</s></li>
             <li><s>segolilysoap.com</s></li>
@@ -60,4 +62,5 @@
         </footer>
     </div>
 </body>
+
 </html>
