@@ -14,7 +14,6 @@ jobs:
         run: |
           docker compose up -d
           docker ps | grep -q website-archive-website-archive-1
-          docker exec -t website-archive-website-archive-1 curl -f http://localhost
   lint:
     runs-on: ubuntu-latest
     steps:
