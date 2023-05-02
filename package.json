@@ -3,10 +3,10 @@
   "description": "A collection of early projects from my web developer career.",
   "version": "1.0.0",
   "devDependencies": {
-    "htmlhint": "^1.1.4",
-    "justintime50-styles": "0.2.0",
-    "stylelint": "^14.15.0",
-    "stylelint-config-standard": "^29.0.0"
+    "htmlhint": "^1.1",
+    "justintime50-styles": "0.4.0",
+    "stylelint": "^15.6",
+    "stylelint-config-standard": "^33.0"
   },
   "scripts": {
     "lint-html": "./node_modules/.bin/htmlhint src",

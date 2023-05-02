@@ -51,7 +51,7 @@ h4 {
   /* background-size: cover;         /* Generic */
 }
 
-@media (max-width: 900px) {/* tells browser what size screen to collapse on */
+@media (width <= 900px) {/* tells browser what size screen to collapse on */
   .jumbotron {
     background-image: url("assets/banner-small.jpg");
     text-align: center;
@@ -276,7 +276,7 @@ footer .glyphicon {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
@@ -288,7 +288,7 @@ footer .glyphicon {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width <= 480px) {
   .logo {
     font-size: 150px;
   }
@@ -347,7 +347,7 @@ footer .glyphicon {
 /***** IPAD COLLAPSE FIX *****/
 
 /* http://stackoverflow.com/questions/31392219/navbar-not-collapse-on-ipad-bootstrap-3 */
-@media (max-width: 1200px) {/* tells browser what size screen to collapse on */
+@media (width <= 1200px) {/* tells browser what size screen to collapse on */
   .navbar-header {
     float: none;
   }

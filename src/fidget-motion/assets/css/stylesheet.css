@@ -80,7 +80,7 @@ footer {
   border-color: #231f20;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (width <= 768px) {
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
@@ -91,14 +91,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width <= 480px) {
   .logo {
     font-size: 150px;
   }
 }
 
 /* For width 1024 and larger: */
-@media only screen and (max-width: 1024px) {
+@media only screen and (width <= 1024px) {
   .logo-banner {
     width: 30%;
     height: auto;
