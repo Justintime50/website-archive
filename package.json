@@ -5,7 +5,7 @@
   "devDependencies": {
     "htmlhint": "^1.1",
     "justintime50-styles": "0.4.0",
-    "stylelint": "^15.6",
+    "stylelint": "^15.10",
     "stylelint-config-standard": "^33.0"
   },
   "scripts": {
