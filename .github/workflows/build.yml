@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Traefik
         run: docker network create traefik
       - name: Setup Docker container
@@ -18,11 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: '20'
       - name: Install dependencies
         run: npm install
       - name: Run CSS lint
@@ -31,13 +31,13 @@ jobs:
         run: npm run lint-html
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: ["docker", "lint"]
+    needs: ['docker', 'lint']
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Harvey
         uses: distributhor/workflow-webhook@v2
         env:
-          webhook_type: "json-extended"
+          webhook_type: 'json-extended'
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
           data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["website-archive-website-archive-1", "website-archive-website-archive-2"] }'

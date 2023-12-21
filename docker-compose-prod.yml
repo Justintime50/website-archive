@@ -2,19 +2,13 @@ services:
   website-archive:
     deploy:
       replicas: 2
-      resources:
-        limits:
-          cpus: "0.50"
-          memory: "512M"
-        reservations:
-          cpus: "0.25"
-          memory: "128M"
+    mem_limit: '512m'
     healthcheck:
-      test: [ "CMD", "curl", "-f", "http://localhost" ]
+      test: ['CMD', 'curl', '-f', 'http://localhost']
       interval: 10s
       timeout: 10s
       retries: 3
     labels:
-      - "traefik.http.routers.website-archive.rule=Host(`website-archive.justinpaulhammond.com`, `www.website-archive.justinpaulhammond.com`)"
-      - "traefik.http.routers.website-archive.tls=true"
-      - "traefik.http.routers.website-archive.tls.certresolver=letsencrypt"
+      - 'traefik.http.routers.website-archive.rule=Host(`website-archive.justinpaulhammond.com`, `www.website-archive.justinpaulhammond.com`)'
+      - 'traefik.http.routers.website-archive.tls=true'
+      - 'traefik.http.routers.website-archive.tls.certresolver=letsencrypt'
