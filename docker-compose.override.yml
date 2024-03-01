@@ -1,6 +1,6 @@
 services:
   website-archive:
     labels:
-      - "traefik.http.routers.website-archive.rule=Host(`website-archive.localhost`)"
+      - 'traefik.http.routers.website-archive.rule=Host(`websites.localhost`)'
     volumes:
       - ./src:/var/www/html/public
