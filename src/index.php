@@ -40,10 +40,15 @@
                 <p>There are dozens of additional sites that I can't showcase code for because they are still actively used by the clients I built them for or collaborated with; however, they are linked below:</p>
 
                 <ul>
+                    <li><a href="https://blog.justinpaulhammond.com">blog.justinpaulhammond.com</a></li>
+                    <li><a href="https://callusfabrication.com">callusfabrication.com</a></li>
                     <li><a href="https://easypost.com">easypost.com</a></li>
+                    <li><a href="https://easyposttools.com">easyposttools.com</a></li>
                     <li><a href="https://fixinscontracting.com">fixinscontracting.com</a></li>
+                    <li><a href="https://golfrocket.golf">golfrocket.golf</a></li>
                     <li><a href="https://highlinesouthasc.com">highlinesouthasc.com</a></li>
                     <li><a href="https://jonesexcavating.com">jonesexcavating.com</a></li>
+                    <li><a href="https://justinpaulhammond.com">justinpaulhammond.com</a></li>
                     <li><a href="https://ncr4.com">ncr4.com</a></li>
                     <li><a href="https://taxsentry.com">taxsentry.com</a></li>
                     <li><s>elgozodejesus.com | rosemarystudios.com</s></li>
@@ -51,13 +56,12 @@
                     <li><s>flintenterprises.com</s></li>
                     <li><s>foodforeverfoundation.org</s></li>
                     <li><s>mydnapie.com</s></li>
-                    <li><s>nozani.com</s> | <s>nozani.cn</s></li>
+                    <li><s>nozani.com | nozani.cn</s></li>
                     <li><s>segolilysoap.com</s></li>
                     <li><s>surgerydirect.net</s></li>
                     <li><s>tuneuptechnology.com</s></li>
                     <li>And many more...</li>
                 </ul>
-
             </div>
         </div>
         <hr />
