@@ -1,7 +1,7 @@
 services:
   website-archive:
-    deploy:
-      replicas: 2
+    ports:
+      - 8110:80
     mem_limit: '512m'
     healthcheck:
       test: ['CMD', 'curl', '--silent', '--output', '/dev/null', '--show-error', '--fail', 'http://localhost']

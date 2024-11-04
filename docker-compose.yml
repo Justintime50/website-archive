@@ -2,10 +2,3 @@ services:
   website-archive:
     build: .
     restart: always
-    networks:
-      - traefik
-
-networks:
-  traefik:
-    name: traefik
-    external: true

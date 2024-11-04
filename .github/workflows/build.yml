@@ -22,7 +22,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
       - name: Install dependencies
         run: npm install
       - name: Run CSS lint
@@ -40,4 +40,4 @@ jobs:
           webhook_type: 'json-extended'
           webhook_url: ${{ secrets.WEBHOOK_URL }}
           webhook_secret: ${{ secrets.WEBHOOK_SECRET }}
-          data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["website-archive-website-archive-1", "website-archive-website-archive-2"] }'
+          data: '{ "deployment_type": "deploy", "prod_compose": true, "healthcheck": ["website-archive-website-archive-1"] }'
