@@ -2,7 +2,8 @@ services:
   website-archive:
     ports:
       - 8110:80
-    mem_limit: '512m'
+    cpus: 1
+    mem_limit: '1024m'
     healthcheck:
       test: ['CMD', 'curl', '--silent', '--output', '/dev/null', '--show-error', '--fail', 'http://localhost']
       start_period: 10s
