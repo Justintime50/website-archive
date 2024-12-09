@@ -2,3 +2,15 @@ services:
   website-archive:
     build: .
     restart: always
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.website-archive.rule=Host(`websites.localhost`)'
+    networks:
+      - traefik
+    volumes:
+      - ./src:/var/www/html/public
+
+networks:
+  traefik:
+    name: traefik
+    external: true

@@ -4,7 +4,7 @@
 
 A collection of projects from early in my web developer career.
 
-[![Build Status](https://github.com/Justintime50/website-archive/workflows/build/badge.svg)](https://github.com/Justintime50/website-archive/actions)
+[![CI Status](https://github.com/Justintime50/website-archive/workflows/ci/badge.svg)](https://github.com/Justintime50/website-archive/actions)
 
 <img src="https://raw.githubusercontent.com/justintime50/assets/main/src/website-archive/showcase.png" alt="Showcase">
 
@@ -16,21 +16,14 @@ All of the source code included here are from projects that are no longer active
 
 ## Usage
 
-Visit at [website-archive.localhost](website-archive.localhost) locally or [website-archive.justinpaulhammond.com](https://website-archive.justinpaulhammond.com) in production.
-
-## Deploy
-
-```bash
-# Deploy the site locally
-docker compose up -d
-
-# Deploy the site in production
-docker compose -f docker-compose.yml -f docker-compose-prod.yml up -d
-```
+Visit at [websites.localhost](websites.localhost) locally or [websites.justinpaulhammond.com](https://websites.justinpaulhammond.com) in production.
 
 ## Development
 
 ```bash
+# Run the site locally
+docker compose up -d
+
 # Lint CSS
 npm run lint-css
 

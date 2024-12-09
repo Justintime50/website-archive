@@ -1,0 +1,31 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Traefik
+        run: docker network create traefik
+      - name: Setup Docker container
+        run: |
+          docker compose up -d
+          docker ps | grep -q website-archive-website-archive-1
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Run CSS lint
+        run: npm run lint-css
+      - name: Run HTML lint
+        run: npm run lint-html
